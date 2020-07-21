@@ -1,0 +1,405 @@
+body {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  font-family: Playfair Display;
+  font-size: 25px;
+}
+
+.dropdown-menu {
+  font-family: Playfair Display;
+  font-size: 25px;
+}
+
+.nav-link {
+  font-family: Playfair Display;
+  font-size: 25px;
+}
+
+.slide-left {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-left p {
+  -webkit-animation: slide-left 3s;
+          animation: slide-left 3s;
+}
+
+.slide-left .a2 {
+  -webkit-animation: slide-left 3.5s;
+          animation: slide-left 3.5s;
+}
+
+.slide-left .a3 {
+  -webkit-animation: slide-left 4s;
+          animation: slide-left 4s;
+}
+
+.slide-left .a4 {
+  -webkit-animation: slide-left 4.5s;
+          animation: slide-left 4.5s;
+}
+
+.slide-left .a5 {
+  -webkit-animation: slide-left 5s;
+          animation: slide-left 5s;
+}
+
+.slide-left .a6 {
+  -webkit-animation: slide-left 5.5s;
+          animation: slide-left 5.5s;
+}
+
+.slide-left .a7 {
+  -webkit-animation: slide-left 6s;
+          animation: slide-left 6s;
+}
+
+@-webkit-keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.resimage {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+}
+
+.txtfoot {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  padding-top: 20px;
+  color: whitesmoke;
+}
+
+.pad {
+  padding-top: 50px;
+}
+
+@media (min-width: 576px) {
+  .hola {
+    font-size: 50px !important;
+  }
+  .subtitulo {
+    font-size: 25px !important;
+  }
+  .subtitulo-link {
+    font-size: 25px !important;
+  }
+  .titulo {
+    font-size: 25px !important;
+  }
+  .texto-perfil1 {
+    font-size: 25px !important;
+  }
+  .texto {
+    font-size: 20px !important;
+  }
+}
+
+.indexfondo {
+  margin: 0px;
+}
+
+.color1 {
+  background-color: #d9dad1;
+  padding-bottom: 50px;
+}
+
+.color2 {
+  background-color: #d4fdfa;
+  padding-bottom: 20px;
+}
+
+.color3 {
+  background-color: #a9add3;
+  padding-bottom: 20px;
+}
+
+.color4 {
+  background-color: #d5f0d1;
+  padding-bottom: 20px;
+}
+
+.color5 {
+  background-color: #3d405b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.texto {
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.texto p {
+  text-align: center;
+}
+
+.hola {
+  font-family: "Playfare Display";
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-family: "Playfair Display";
+  font-size: 25px;
+}
+
+.subtitulo-link {
+  text-decoration: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  color: navy;
+  font-family: "Playfair Display";
+  font-size: 30px;
+}
+
+.titulo {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.texto-perfil1 {
+  color: white;
+  font-family: Playfair Display;
+  font-size: 15px;
+  text-align: center;
+}
+
+.largo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.textosmall {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #3d405b;
+}
+
+.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Elemento {
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+}
+
+.shuffle {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.organic {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.E404 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.dragon {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cdubs {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.picnic {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sintacc {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.lampara {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.bolsa {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.shuffle {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.shuffle img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.organic {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.organic img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.E404 {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.E404 img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.ade {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.ade img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.aca {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.aca img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.revis {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.revis img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.dragon {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.dragon img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cdubs {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.cdubs img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.picnic {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.picnic img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sintacc {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.sintacc img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lampara {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.lampara img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.bolsa {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.bolsa img.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
