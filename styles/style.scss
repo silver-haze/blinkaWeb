@@ -1,356 +1,243 @@
-body { padding-top: 50px;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@100;300;500;700&display=swap');
+
+html {
+	font-size: 62.5% ;
+	}
+
+
+body { padding-top: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
  }
 
 .navbar-brand {
-	font-family: Playfair Display;
-	font-size: 25px;
+	font-family: 'Playfair Display';
+	font-size: 2.5rem !important;
 }
 
 .dropdown-menu {
-	font-family: Playfair Display;
-	font-size: 25px;
+	font-family: 'Playfair Display';
+	font-size: 2.5em;
 }
 
 .nav-link {
-	font-family: Playfair Display;
-	font-size: 25px;
+	font-family: 'Playfair Display';
+	font-size: 1.8em;
 }
 
 
+#colorIndex {
+	background-image: linear-gradient(#4D97CF, #9845E1);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+.logohead {
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
 
-.slide-left {
-	width:100%;
-	overflow:hidden;
-  
-  }
-  
-  .slide-left p {
-	animation: slide-left 3s; 
-  
-  }
-  .slide-left .a2{
-  
-	animation: slide-left 3.5s; 
-  }
-  
-  .slide-left .a3{
-	animation: slide-left 4s;
-  }
-  
-  .slide-left .a4{
-	animation: slide-left 4.5s;
-  }
-  .slide-left .a5{
-	animation: slide-left 5s;
-  }
-  .slide-left .a6{
-	animation: slide-left 5.5s;
-  }
-  .slide-left .a7{
-	animation: slide-left 6s;
-  }
-  
-  @keyframes slide-left {
+#logoBlinka {
+	margin-top: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: fill 1.2s ease forwards 3.2s;
+}
+
+#logoBlinka path:nth-child(1) {
+stroke-dasharray: 263.85px;
+stroke-dashoffset: 263.85px;
+animation: line-anim 2s ease forwards;
+}
+
+#logoBlinka path:nth-child(2) {
+stroke-dasharray: 151.1px;
+stroke-dashoffset: 151.1px;
+animation: line-anim 2s ease forwards 0.4s;
+}
+
+#logoBlinka path:nth-child(3) {
+	stroke-dasharray: 153.24px;
+	stroke-dashoffset: 153.24px;
+	animation: line-anim 2s ease forwards 0.8s;
+}
+
+#logoBlinka path:nth-child(4) {
+	stroke-dasharray: 239px;
+	stroke-dashoffset: 239px;
+	animation: line-anim 2s ease forwards 1.2s;
+}
+
+#logoBlinka path:nth-child(5) {
+	stroke-dasharray: 279.76px;
+	stroke-dashoffset: 279.76px;
+	animation: line-anim 2s ease forwards 1.6s;
+}
+
+#logoBlinka path:nth-child(6) {
+	stroke-dasharray: 227.6px;
+	stroke-dashoffset: 227.6px;
+	animation: line-anim 2s ease forwards 2s;
+}
+
+@keyframes line-anim{
+	to{
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill {
 	from {
-	  margin-left: 100%;
-	  width: 300%; 
+		fill: transparent;
 	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
+	to{
+		fill: white;
 	}
+}
+
+
+.logosub {
+	font-family: 'Roboto';
+	font-weight: 100;
+	color: whitesmoke;
+	font-size: 2.5rem;
+	text-align: center;
+	animation: fill 1.2s ease forwards 3.2s;
+}
+
+.xchica {
+	font-size: 1.5rem;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.xmed {
+	font-size: 2rem;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 155px;
+}
+
+.xlarge {
+	font-size: 2.5rem;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.centrar {
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+#lineas2 {
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+
+#lineas3{
+	padding-top: 17px;
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+
+.boxtext {
+	text-align: center;
+	color: #686868;
+	font-size: 1.5rem;
+	font-family: 'Roboto';
+	font-weight: 300;
+	}
+
+.box {
+	display: inline-block;
+	width: 350px;
+	height: 100px;
+	background-color: whitesmoke;
+	text-align: center;
+	opacity: 85%;
+	box-shadow: 2px 2px 18px #2c2c2c;
+	animation: fade 5s ease;
+	border-radius: 1rem;
+}
+
+button {
+	color: whitesmoke;
+	border-radius: 1rem;
+	font-size: 15px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	padding: 10px;
+	border: none;
+	text-align: center;
+	box-shadow: 2px 2px 10px #2c2c2c;
+}
+
+.boton1 {
+	text-align: center;
+	background-color: #9845E1;
+}
+
+button:active {
+	border:none;
+}
+
+button:visited {
+	border: none;
+  }
+
+button:hover {
+	border: none;
+	background-color: #d445e1;
   }
 
 
-.resimage {
-	width: 100%;
-  height: auto;
-  max-width: 768px;
+/* .triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid rgb(255, 255, 255);
+	position: absolute
+  }
+ */ 
+
+.dialogo {
+	margin-top: 25px;
+}
+
+.lapiz {
+	margin-top: 170px;
 }
 
 
+footer{
+	background-color: purple;
+	text-align: center;
+	width: 100%;
+	margin: 20px 0 0 0;
+	vertical-align: middle;
+	bottom: 0;
+	padding: 10px;
+   }
 
-.txtfoot{
+
+   .txtfoot{
 	text-align: center;
 	font-family: "Roboto";
 	font-size: 12px;
-	padding-top: 20px;
-	color: whitesmoke;
-}
-
-.pad{
-	padding-top: 50px;
-}
-
-
-$bcgcolorbase: #d9dad1;
-
-$bcgcolor2:#d4fdfa;
-
-$bcgcolor3: #a9add3;
-
-$bcgcolor4: #d5f0d1  ;
-
-$bcgcolor5: #3d405b;
-
-
-@media (min-width: 576px) { 
-	.hola {
-		font-size: 50px !important; 
-	}
-	
-	.subtitulo {
-		font-size: 25px !important;
-	}
-	
-	.subtitulo-link {
-		font-size: 25px !important;
-	}
-	.titulo {
-		font-size: 25px !important;
-	}
-	
-	.texto-perfil1 {
-		font-size: 25px !important;
-	}
-	.texto {
-		font-size: 20px !important;
-	}
-	
- }
-
-.indexfondo{
-	margin: 0px;
-}
-
-.color1 {
-	background-color: $bcgcolorbase;
-	padding-bottom: 50px;
-}
-
-.color2 {
-	background-color: $bcgcolor2;
-	padding-bottom: 20px;
-}
-
-.color3 {
-	background-color: $bcgcolor3;
-	padding-bottom: 20px;
-}
-
-.color4 {
-	background-color: $bcgcolor4;
-	padding-bottom: 20px;
-}
-
-.color5 {
-	background-color: $bcgcolor5;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.texto {
-	font-family: "Roboto";
-	font-size: 15px;
-}
-
-.texto p {
-	text-align: center;
-}
-
-.hola {
-	font-family: "Playfare Display";
-	font-weight: 100;
-	font-size: 30px;
-	text-align: center;
-}
-
-.subtitulo {
-	font-family: "Playfair Display";
-	font-size: 25px;
-}
-
-.subtitulo-link {
-	text-decoration: none;
-	text-decoration-color: none;
-	color: navy;
-	font-family: "Playfair Display";
-	font-size: 30px;
-}
-.titulo {
-	font-family: "Roboto";
-	font-weight: 100;
-	font-size: 25px;
-}
-
-.texto-perfil1 {
-	color: white;
-	font-family: Playfair Display;
-	font-size: 15px;
-	text-align: center;
-}
-
-.largo {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.textosmall {
-	font-family: "Roboto";
-	font-weight: 300;
-	font-size: 12px;
-	text-align: center;
+	color: seashell;
+	padding-top: 2px;
 	
 }
 
-.footer{
- background-color: $bcgcolor5;
-}
-
-
-@mixin imganim {
-color: white; 
-font-size: 40px;
-text-align: center
-}
-
-
-
-.container-flex {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	margin: auto;
-	justify-content: center;
-}
-
-.Elemento {
-	flex-basis: 300px;
-} 
-
-.shuffle {
-    @include imganim();
-}
-
-.organic {
-    @include imganim();
-}
-
-.E404 {
-    @include imganim();
-}
-
-.dragon {
-    @include imganim();
-}
-
-.cdubs {
-    @include imganim();
-}
-
-.picnic {
-    @include imganim();
-}
-
-.sintacc {
-    @include imganim();
-}
-
-.lampara {
-    @include imganim();
-}
-
-.bolsa {
-	@include imganim();
-}
-
-.shuffle {
-   transition: 2s; 
-}
-.shuffle img.agrandar:hover{
-	transform: scale(1.1);
-
-}
-
-.organic {
-   transition: 2s; 
-}
-.organic img.agrandar:hover{
-	transform: scale(1.1);
-
-}
-
-.E404 {
-   transition: 2s; 
-}
-.E404 img.agrandar:hover{
-	transform: scale(1.1);
-
-}
-
-.ade {
-   transition: 2s; 
-}
-.ade img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.aca {
-   transition: 2s; 
-}
-.aca img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.revis {
-   transition: 2s; 
-}
-.revis img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.dragon {
-   transition: 2s; 
-}
-.dragon img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.cdubs {
-   transition: 2s; 
-}
-.cdubs img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.picnic {
-   transition: 2s; 
-}
-.picnic img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.sintacc {
-   transition: 2s; 
-}
-.sintacc img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.lampara {
-   transition: 2s; 
-}
-.lampara img.agrandar:hover{
-	transform: scale(1.1);
-}
-
-.bolsa {
-   transition: 2s; 
-}
-.bolsa img.agrandar:hover{
-	transform: scale(1.1);
-}
