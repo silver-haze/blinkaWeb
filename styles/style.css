@@ -6,6 +6,41 @@
           box-sizing: border-box;
 }
 
+.subtitulo {
+  font-family: 'Playfair Display';
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#colorContacto {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#60CCAF), to(#C5D477));
+  background-image: linear-gradient(#60CCAF, #C5D477);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.iconos {
+  color: whitesmoke;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.boxIcon {
+  width: 100px;
+  height: 100px;
+  background-color: #4a927f;
+  border-radius: 55rem;
+  -webkit-box-shadow: 2px 2px 18px #2c2c2c;
+          box-shadow: 2px 2px 18px #2c2c2c;
+}
+
+.boxIcon:hover {
+  background-color: #45e1e1;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -85,7 +120,7 @@ body {
 @media screen and (min-width: 768px) {
   .box {
     width: 450px !important;
-    height: 130px !important;
+    height: 120px !important;
   }
 }
 
@@ -341,7 +376,7 @@ body {
   border-radius: 1rem;
 }
 
-i.fas {
+i.fa-chevron-up {
   color: whitesmoke;
   font-size: 3rem;
   text-align: center;
@@ -409,11 +444,18 @@ footer {
   padding: 10px;
 }
 
+.iconitos {
+  font-size: 3rem;
+  padding-top: 10px;
+  color: whitesmoke;
+  opacity: 87%;
+}
+
 .txtfoot {
   text-align: center;
   font-family: "Roboto";
   font-size: 12px;
-  color: seashell;
+  color: whitesmoke;
   padding-top: 4px;
 }
 /*# sourceMappingURL=style.css.map */

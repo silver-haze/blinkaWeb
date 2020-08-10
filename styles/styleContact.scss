@@ -1,0 +1,34 @@
+.subtitulo {
+	font-family: 'Playfair Display';
+	font-size: 5rem;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#colorContacto {
+	background-image: linear-gradient(#60CCAF, #C5D477);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.iconos{
+	color: whitesmoke;
+	font-size: 6rem;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.boxIcon {
+	width: 100px;
+	height: 100px;
+	background-color: #4a927f;
+	border-radius: 55rem;
+	box-shadow: 2px 2px 18px #2c2c2c;
+}
+
+.boxIcon:hover {
+	background-color: #45e1e1;
+  }
+
