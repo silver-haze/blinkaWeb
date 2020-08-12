@@ -268,18 +268,19 @@ i.fa-chevron-up {
 	box-shadow: 2px 2px 10px #2c2c2c;
 }
 
+.boton1:hover {
+	border: none;
+	background-color: $colorIndex2;
+}
+
 .boton1:active {
 	border:none;
+	outline: 0!important;
 }
 
 .boton1:visited {
 	border: none;
   }
-
-.boton1:hover {
-	border: none;
-	background-color: $colorIndex2;
-}
 
 
 .dialogo {
