@@ -6,6 +6,41 @@
   overflow-x: hidden;
 }
 
+.proItem {
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: whitesmoke;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.proItem:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.carousel {
+  height: 500px;
+  width: 500px;
+}
+
+.imglogos {
+  display: block;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.agrandar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 .boton4 {
   color: whitesmoke;
   border-radius: 1rem;
@@ -48,5 +83,12 @@
 
 .subir4:hover {
   background-color: #62dbe6;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 350px;
+    height: 350px;
+  }
 }
 /*# sourceMappingURL=styleProjects.css.map */

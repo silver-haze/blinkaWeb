@@ -15,6 +15,44 @@ $colorshadow:#2c2c2c;
 }
 
 
+.proItem {
+	font-family: 'Roboto';
+	font-weight: 100;
+	color: whitesmoke;
+	font-size: 2.5rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.proItem:hover {
+	text-decoration: none;
+	font-weight: 500;
+	color: whitesmoke;
+}
+
+
+.carousel {
+	height: 500px;
+	width: 500px;
+}
+
+
+
+.imglogos{
+	display: block;
+	
+}
+
+.pad {
+	padding: 10px;
+}
+
+.agrandar:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+
 .boton4 {
 	color: whitesmoke;
 	border-radius: 1rem;
@@ -58,3 +96,9 @@ $colorshadow:#2c2c2c;
 	background-color: $colorsubir4Hover;
 }
 
+@media (max-width: 768px) {
+	.carousel {
+		width: 350px;
+		height: 350px;
+		}
+}
