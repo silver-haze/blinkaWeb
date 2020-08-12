@@ -1,0 +1,86 @@
+.navbar-dark {
+  background-color: transparent;
+}
+
+#navbarNavDropdown {
+  background-color: rgba(0, 156, 218, 0.9);
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.navbar-toggler {
+  font-size: 2rem;
+  border: none;
+  outline: 0 !important;
+}
+
+.navbar-toggler:hover {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.close {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 1.2em;
+  color: whitesmoke;
+  border: none;
+  outline: 0 !important;
+}
+
+.close:hover {
+  font-family: 'Roboto';
+  color: whitesmoke;
+  border: none;
+  outline: 0 !important;
+}
+
+.navbar-toggler > .close {
+  display: inline;
+}
+
+.navbar-toggler.collapsed > .close, .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+  display: none;
+}
+
+.drop-div {
+  padding-left: 15px;
+}
+
+i.fa-moon {
+  font-size: 2.5rem;
+  opacity: 70%;
+}
+
+i.fa-moon:hover {
+  opacity: 100%;
+  font-size: 2.8rem !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    border: none;
+    outline: 0 !important;
+  }
+}
+
+@media screen and (min-width: 995px) {
+  #navbarNavDropdown {
+    background-color: transparent !important;
+  }
+}
+
+@media (max-width: 994px) {
+  #separador {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styleNavbar.css.map */
